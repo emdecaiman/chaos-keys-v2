@@ -1,0 +1,54 @@
+/* TypingGame */
+
+#gameWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.gameTitle {
+  border: 2px solid white;
+}
+
+.columnWrapper {
+  display: flex;
+  width: 500px; /* Fixed width */
+  height: 600px; /* Fixed height */
+  margin: 0 auto;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+
+}
+
+.indicatorWrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px; /* Adjust margin as needed */
+  width: 500px;
+}
+
+.indicators {
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  margin: 0 5px; /* Adjust margin as needed */
+  background-color: red; /* Background color */
+}
+
+/* ListWords */ 
+.word {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Header */
+
+#header {
+  color: white;
+}
