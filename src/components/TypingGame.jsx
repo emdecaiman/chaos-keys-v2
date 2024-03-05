@@ -63,7 +63,7 @@ const TypingGame = () => {
                 ))}
             </div>
             <div className="indicatorWrapper">
-                <div className="indicators" style={{ left: `${selectedColumn * 33.33}%` }}></div>
+                <div className="indicators" style={{ left: `${(selectedColumn - 1) * 33.33}%` }}></div>
             </div>
 
         
